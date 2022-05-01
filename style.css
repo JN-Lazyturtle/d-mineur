@@ -1,0 +1,42 @@
+/* VISUEL JEU */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #b67f6f;
+}
+
+header {
+    height: 150px;
+}
+
+/* JEU */
+::selection{
+    color: olive;
+    background-color: rgb(128,128,1);
+}
+
+.jeu {
+    border: olive solid 2px;
+    width: 500px;
+}
+
+.jeu>div {
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: olive;
+}
+
+.jeu>div>div {
+    flex-direction: row;
+    border: #83584c solid 2px;
+    width: 100%;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    color: olive;
+    font-weight: bold;
+
+}
+
